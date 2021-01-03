@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+  font-family: Segoe, "Segoe UI";
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation */
+.topnav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #171717;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+	background-color: #E1E1E1;
+	color: black;
+	border-bottom: thin;
+	border-bottom-color: #171717;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* Header Page 1 */
+.header {
+	background-color: #00A4EF;
+	padding: 20px;
+	height: 150px;
+	text-align: center;
+	color: white;
+	background-image: url("file:///D:/Documents/college/root/images/header4.png");
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+.header p1{
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+/* Header Page 2 */
+.header2 {
+	background-color: #00A4EF;
+	padding: 20px;
+	height: 150px;
+	text-align: center;
+	color: white;
+	background-image: url("file:///D:/Documents/college/root/images/header2.png");
+	background-position: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+.header2 p1{
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+/* Content Page 1 */
+.content{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+}
+
+.diagram{
+	width: 100%;
+	padding-top: 2%;
+	align-content: center;
+}
+
+.diagram1{
+	width: 100%;
+	padding-top: 2%;
+	align-content: center;
+}
+.content h2{
+	font-family: Segoe, "Segoe UI";
+	
+}
+
+/* Recog 1 */
+.recog{
+	width:30%;
+	margin: 10px;
+}
+
+.recog1{
+	width:20%;
+}
+.recog2{
+	width:35%;
+}
+
+/* Content Page 2 */
+.content2{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+	width: 100%;
+	background-image: url("file:///D:/Documents/college/root/images/content2.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.content2 p{
+	width: 70%;
+}
+
+
+/* Content Page 2-2 */
+.content22{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 5%;
+	width: 100%;
+	background-image: url("file:///D:/Documents/college/root/images/content22.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	
+}
+
+.content22 p{
+	width: 70%;
+}
+
+
+/* Content Page 2-3 */
+.content23{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 5%;
+	width: 100%;
+	background-image: url("file:///D:/Documents/college/root/images/Hero-HoloLens-1083x609.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	
+}
+
+.content23 p{
+	width: 70%;
+}
+
+/* Content Page 2-4 */
+.content24{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 5%;
+	width: 100%;
+	color: black;
+	
+}
+
+.content24 p{
+	width: 100%;
+}
+
+.imageduo{
+	width: 100%;
+}
+
+.scatter{
+	width: 50%;
+}
+
+.waveforms{
+	width: 50%;
+	float: left;
+}
+
+/* Content Page 1 */
+.content3{
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2%;
+}
+
+.content3 h2{
+	font-family: Segoe, "Segoe UI";
+	
+}
+
+.content3 p{
+	font-family: Segoe, "Segoe UI";
+	
+}
+
+.video{
+	width: 100%;
+	
+}
+
+.id{
+	border-radius: 50%;
+}
+
+.row {
+  margin: 8px -16px;
+	color: black;
+	text-align: center;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.footer p {
+	width: auto; 
+	float: left;
+	margin: 3px;
+}
+
+.icon-bar {
+  width: 20%; /* Full-width */
+  overflow: auto; /* Overflow due to float */
+	display: block;
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 1px 1px; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 20px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #CBCBCB; /* Add a hover color */
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
